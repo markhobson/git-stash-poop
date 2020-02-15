@@ -6,7 +6,7 @@ Ever tried to pop a git stash and made an amusing typo? Now you can make it even
 
 Install by running:
 
-    cat alias >> ~/.bash_aliases
+    curl -so ~/.bash_aliases https://raw.githubusercontent.com/markhobson/git-stash-poop/master/alias
 
 Open a new terminal (or type `source ~/.bash_aliases`) and try it using:
 
