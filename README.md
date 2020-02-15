@@ -16,6 +16,8 @@ Open a new terminal (or type `source ~/.bash_aliases`) and try it using:
 
 To rebuild the alias from the source image:
 
+    sudo apt update
+    sudo apt install jp2a
     ./build.sh
 
 Thanks to [jp2a](https://csl.name/jp2a/) for the ASCII art generator.
