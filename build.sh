@@ -15,7 +15,7 @@ __git_stash_poop()
 	cat << POOP
 EOF
 
-jp2a --colors poop.jpg >> alias
+jp2a --width=82 --colors poop.jpg >> alias
 
 cat << EOF >>alias
 POOP
