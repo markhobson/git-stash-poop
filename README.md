@@ -8,6 +8,12 @@ Install by running:
 
     curl -so ~/.bash_aliases https://raw.githubusercontent.com/markhobson/git-stash-poop/master/alias
 
+Not on Ubuntu? Then you may need to add the following to your `~/.bashrc`:
+
+    if [ -f ~/.bash_aliases ]; then
+         . ~/.bash_aliases
+    fi
+
 Open a new terminal (or type `source ~/.bash_aliases`) and try it using:
 
     git stash poop
